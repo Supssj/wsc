@@ -1,0 +1,93 @@
+/*公共样式*/
+body,div, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea, form, th, td {
+margin: 0;
+padding: 0;
+box-sizing: border-box;}
+body{font-size: 14px;font-family: "-apple-system","Helvetica Neue",Roboto,"Segoe UI",sans-serif;background-color: #F3F3F3}
+ul li{list-style: none;}
+h3{font-weight: normal;}
+a{text-decoration: none;}
+img{vertical-align: middle}
+.dis-inb{display: inline-block}
+.fz11{font-size: 11px;}
+.fz18{font-size: 18px;}
+.fz12{font-size: 12px;}
+.fz15{font-size:15px;}
+.fz16{font-size: 16px;}
+.fleft{float: left;}
+.fright{float: right;}
+.text-center{text-align: center;}
+.oh{overflow: hidden;}
+.light{color: #fff;}
+.color66{color: #666;}
+.colorc{color: #ccc}
+.bgf5{background-color: #f5f5f5;}
+.bglight{background-color: #fff;}
+.bgdark{background-color: #393a3e;}
+.padding{padding: 10px;}
+.padleft10{padding-left: 10px;}
+.padtb10{padding: 10px 0px;}
+.padlr20{padding: 0px 20px;}
+.padtop10{padding-top: 10px;}
+.padleft15{padding-left: 15px;}
+.marleft50{margin-left: 50px;}
+.martop20{margin-top: 20px;}
+.borbt{border-bottom: 1px solid #ddd;}
+.borbtDE{border-bottom: 1px solid #dedede!important;}
+.noborder{border: 0!important;}
+.title{vertical-align: middle;position: relative;}
+.dflex{ display: -webkit-flex; display: flex;}
+.dflex li{flex: 1; text-align: center;}
+.pos-rel{position: relative}
+.pos-abs{position: absolute}
+.pos-fix{position: fixed}
+.header{height: 50px;width:100%;line-height: 50px;}
+.back{width: 10px;height: 100%;background: url("../images/back.png") no-repeat 0 50%;background-size: 100%;left: 10px}
+/*个人中心*/
+.title .btn{background-color: transparent;width:32px;height: 6px;border: none;}
+.title .pmore{background: url(../images/icon_more.png) no-repeat; background-size: contain;position: absolute;top: 50%;right:0;margin-top: -3px;}
+.user-info{height: 126px;}
+.user-info .info img{height: 75px; text-align: center;}
+.user-info .leavl{background-color: #fe8eaf;padding:1px 7px;border-radius: 10px;}
+.order img{height: 22px;float: left;}
+.enter img{width:9px ;height: 17px;}
+.ordercon li img{height: 22px;margin-top: 10px;}
+.order2 li img{height: 32px;margin-top: 10px;}
+.order2 li p{padding:5px 0;}
+.bgline{height: 30px; text-align: center; line-height:30px;position: relative;z-index: -9;}
+.bgline1{width: 200px;height: 1px;position: absolute;left: 50%;margin-left: -100px;background: #FE8EAF;top: 12px;z-index:-1;}
+.youlike{display: block;width:80px;height: 30px;background-color:#f5f5f5 ;z-index: 99;margin: 0 auto;}
+
+
+/*我的二维码*/
+.QR-title{margin-bottom: 37px;}
+.QR-box{width: 100%;height: auto;padding: 0px 16px 0 16px}
+.QR-wrap{width: 100%;height: 100%;border-radius: 16px;border: 1px solid #E9E9E9;}
+.QR-user{width: 100%;height: 87px;padding: 26px 38px;border-bottom: 1px solid #EAEAEA}
+.QR-username{line-height: 35px}
+.QR-setting{top: 10px;right:10px;background: url("../images/setting.png");width: 22px;height:22px;background-size: 100% 100%}
+.QR-invite{line-height: 37px;width:100%;border-bottom: 1px solid #EAEAEA}
+.QR-img{padding: 41px 0;}
+.QR-img img{margin: 0 auto;display: block;width: 240px}
+.QR-share{width:100%;padding: 0 16px;margin-top: 36px}
+.QR-share a{display: inline-block;height:45px;color: #707070;border: 1px solid #E1E1E1;line-height: 45px;padding-right: 26px}
+.QR-share a i{width: 27px;height: 100%;margin-left: 26px;margin-right: 9px;background-size: 100%}
+.img-share{background: url("../images/img-share.png") no-repeat 0 50%;}
+.link-share{background: url("../images/link-share.png") no-repeat 0 50%;}
+
+
+/*个人信息*/
+.userInfo-basic{width: 100%;}
+.userInfo-basic li{height: 44px;line-height: 44px;border-bottom: 1px solid #F7F7F7;padding: 0 10px}
+.userInfo-basic li a{display: block;width: 100%;height: 100%;color: #808080}
+.userInfo-basic li a img{margin-top: 3px}
+.userInfo-os{color: #B7B7B7;line-height: 38px;border-bottom: 1px solid #E1E1E1;border-top: 1px solid #E1E1E1;}
+.userInfo-footer{height:45px;width: 100%;padding: 5px 0;bottom: 0;left: 0;right: 0}
+.userInfo-change{height: 100%;padding: 0 28px;line-height: 35px;margin: 0 auto;display: block;border-radius: 4px;background-color: #FF82A7;outline: none;border: none;}
+
+/*修改个人信息*/
+.add-head{padding: 25px 0}
+.add-head-box{width: 81px;height: 81px;margin: 0 auto}
+.add-head-box a{display: block;width: 100%;height:100%;background: url("../images/add-head-pic.png") no-repeat;background-size: 100%}
+.marginL40{margin-left: 40px}
+.width78{width: 78px}
